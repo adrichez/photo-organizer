@@ -3,8 +3,7 @@
 </p>
 
 <div align="center">
-  <h1><span style="color: #eeb251ff;">Photo Organizer</span></h1>
-  <h2><span style="color: #dece63ff;">Organize your photos by year and month automatically</span></h2>
+  <h1><span style="color: #dece63ff;">Organize your photos by year and month automatically</span></h1>
 
   <hr style="border:none; height:0.3px; background-color:#777; width:65%; margin:30px auto 35px auto;">
 
@@ -17,7 +16,7 @@
   </p>
 
   <p>
-    <a href="# 📸 Photo Organizer">Context</a> •
+    <a href="## 📄 Description">Description</a> •
     <a href="## 📂 Repository Structure">Structure</a> • 
     <a href="## ⚙️ Requirements">Requirements</a> • 
     <a href="## 💻 Installation">Installation</a> • 
@@ -40,7 +39,7 @@
 
 ---
 
-# 📸 Photo Organizer
+## 📄 Description
 
 A simple Python script to organize your photos into **year/month subfolders** based on the photo's **EXIF metadata** (DateTimeOriginal) or, if not available, the file's modification date.  
 Duplicates are automatically detected using MD5 hashes, and the script ensures no files are overwritten.
